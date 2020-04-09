@@ -27,27 +27,20 @@ If you are using Maven with [BOM][libraries-bom], add this to your pom.xml file
   </dependencies>
 </dependencyManagement>
 
-<dependencies>
-  <dependency>
+<dependency>
     <groupId>com.google.cloud</groupId>
     <artifactId>google-cloud-datalabeling</artifactId>
-  </dependency>
-
+ </dependency>
 ```
-
+[//]: # ({x-version-update-start:google-cloud-datalabeling:released})
 If you are using Maven without BOM, add this to your dependencies:
-
 ```xml
 <dependency>
   <groupId>com.google.cloud</groupId>
   <artifactId>google-cloud-datalabeling</artifactId>
-  <version>0.118.0</version>
+  <version>0.118.1</version>
 </dependency>
-
 ```
-
-[//]: # ({x-version-update-start:google-cloud-datalabeling:released})
-
 If you are using Gradle, add this to your dependencies
 ```Groovy
 compile 'com.google.cloud:google-cloud-datalabeling:0.118.1'
