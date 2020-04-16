@@ -27,12 +27,10 @@ If you are using Maven with [BOM][libraries-bom], add this to your pom.xml file
   </dependencies>
 </dependencyManagement>
 
-<dependencies>
-  <dependency>
-    <groupId>com.google.cloud</groupId>
-    <artifactId>google-cloud-datalabeling</artifactId>
-  </dependency>
-
+<dependency>
+  <groupId>com.google.cloud</groupId>
+  <artifactId>google-cloud-datalabeling</artifactId>
+</dependency>
 ```
 
 If you are using Maven without BOM, add this to your dependencies:
@@ -43,7 +41,6 @@ If you are using Maven without BOM, add this to your dependencies:
   <artifactId>google-cloud-datalabeling</artifactId>
   <version>0.118.0</version>
 </dependency>
-
 ```
 
 [//]: # ({x-version-update-start:google-cloud-datalabeling:released})
